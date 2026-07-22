@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#6a11cb,#2575fc,#00c9a7);
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:40px;
+    background:rgba(0,0,0,0.25);
+    backdrop-filter:blur(6px);
+}
+
+header h1{
+    font-size:45px;
+    margin:0;
+}
+
+header p{
+    font-size:20px;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    background:rgba(255,255,255,0.15);
+    padding:15px;
+    backdrop-filter:blur(8px);
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:yellow;
+    transform:scale(1.1);
+}
+
+section{
+    padding:40px;
+}
+
+h2{
+    text-align:center;
+    color:#ffe600;
+}
+
+.skills,
+.projects{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+.skill-card,
+.card{
+    background:rgba(255,255,255,0.18);
+    backdrop-filter:blur(10px);
+    width:220px;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,0.3);
+    transition:0.4s;
+}
+
+.skill-card:hover{
+    background:#ff9800;
+    transform:translateY(-10px) scale(1.05);
+}
+
+.card:hover{
+    background:#00bcd4;
+    transform:translateY(-12px);
+}
+
+button{
+    display:block;
+    margin:35px auto;
+    padding:12px 30px;
+    font-size:18px;
+    background:#ff4081;
+    color:white;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#ffeb3b;
+    color:black;
+    transform:scale(1.1);
+}
+
+#message{
+    text-align:center;
+    font-size:20px;
+    color:#fff176;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:rgba(0,0,0,0.3);
+    margin-top:40px;
+}
